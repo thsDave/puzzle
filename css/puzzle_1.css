@@ -1,0 +1,71 @@
+body {
+	/*background: #222;*/
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Rounded LT Std Bold Condensed';
+	background: transparent url("../img/puzzle_background.png") no-repeat fixed 0px 0px / cover;
+}
+
+span {
+	color: #FFF;
+}
+
+div#content {
+	margin-top: 10px;
+}
+
+div#conf {
+	width: 75%;
+	height: 75%;
+	padding-bottom: 10px;
+}
+
+table {
+	border: 2px solid white;
+	box-shadow: 1px 1px 8px #ffffff,-1px -1px 8px #ffffff, 1px -1px 8px #ffffff, -1px 1px 8px #ffffff;
+	-webkit-box-shadow: 1px 1px 8px #ffffff,-1px -1px 8px #ffffff, 1px -1px 8px #ffffff, -1px 1px 8px #ffffff;
+	border-collapse: collapse;
+}
+
+td.pieza {
+	background: url(../img/puzzle_1.png);
+	transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
+	-o-transition: .3s ease-in-out;
+	cursor:pointer;
+}
+
+div.posic {
+	background: #FFF;
+	padding: 5px;
+	border: 1px solid #ffffff;
+	width: 150px;
+	position: absolute;
+	top: 70px;
+	overflow: auto;
+	min-height: 200px;
+	max-height: 250px;
+}
+
+div#titulo {
+	color:#FFF;
+	font-size:30px;
+	font-weight:bold;
+	text-shadow:1px 1px 8px #ffffff, -1px -1px 8px #ffffff, 1px -1px 8px #ffffff, -1px 1px 8px #ffffff;
+}
+
+#div_content table{
+	width: 900px;
+	height: 900px;
+}
+
+#posiciones {
+	display: none;
+}
+
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}

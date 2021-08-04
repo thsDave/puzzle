@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Puzzles Educo</title>
+	<link rel="stylesheet" href="css/puzzle_1.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container mt-4">
+		<div class="row">
+			<div class="col-12">
+				<div id='content' align='center'>
+				  	<div id='conf'>
+						<div class="row">
+							<div class="col-12">
+								<h1 class="display-5 text-white">Selecciona una dificultad:</h1>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-4"></div>
+							<div class="col-4">
+								<select id='piezas' class="form-control">
+						    		<option value='4'>4</option>
+									<option value='9' selected>9</option>
+									<option value='16'>16</option>
+									<option value='25'>25</option>
+									<option value='36'>36</option>
+									<option value='100'>100</option>
+								</select>
+							</div>
+							<div class="col-4"></div>
+						</div>
+						<div class="row mt-3 mb-4">
+							<dic class="col-3"></dic>
+							<dic class="col-3">
+								<button type='button' class="btn btn-lg btn-primary" id='barajar'>Iniciar</button>
+							</dic>
+							<dic class="col-3">
+								<a href="index.html" class="btn btn-lg btn-danger" title="Inicio">Volver</a>
+							</dic>
+							<dic class="col-3"></dic>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="js/puzzle.js"></script>
+</body>
+</html>
